@@ -8,6 +8,4 @@
                  [ring "1.8.1"]
                  [hiccup "1.0.5"]]
   :repl-options {:init-ns spyfall.core}
-  :main spyfall.core
-  :profiles {:dev
-             {:main spyfall.core/-dev-main}})
+  :main spyfall.core)
